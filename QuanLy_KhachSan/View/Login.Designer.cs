@@ -1,6 +1,6 @@
 ﻿namespace QuanLy_KhachSan.View
 {
-    partial class Dashboard
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnExit = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();

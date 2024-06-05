@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLy_KhachSan.View
 {
-    public partial class Dashboard : Form
+    public partial class Login : Form
     {
-        public Dashboard()
+        public Login()
         {
             InitializeComponent();
         }
