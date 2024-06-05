@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLy_KhachSan.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace QuanLy_KhachSan
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Dashboard());
         }
     }
 }
