@@ -21,5 +21,22 @@ namespace QuanLy_KhachSan.View
         {
             Application.Exit();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (txtUserName.Text == "vnat" && txtPassword.Text == "1")
+            {
+                labelError.Visible = false;
+                Dashboard ds = new Dashboard();
+                this.Hide();
+                ds.Show();
+            }
+            else
+            {
+                labelError.Visible = true;
+                txtPassword.Clear();
+                txtUserName.Clear();
+            }
+        }
     }
 }
